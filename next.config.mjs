@@ -15,7 +15,7 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  basePath: '/my-v0-project', // REPLACE with your repo name if using a project site
+  basePath: '/la-roche-triple',
 };
 
 export default nextConfig;
