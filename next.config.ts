@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: isProd ? "/la-roche-triple" : undefined,
+  assetPrefix: isProd ? "/la-roche-triple/" : undefined,
   images: {
     unoptimized: true,
   },
