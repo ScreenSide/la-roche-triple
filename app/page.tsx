@@ -44,7 +44,7 @@ export default function Home() {
       <footer className="bg-brown px-6 py-12 text-center text-white sm:py-16">
         <div className="mx-auto flex max-w-3xl flex-col gap-4 text-sm leading-7">
           <p className="font-serif tracking-[0.12em]">
-            Brasserie Lupulus SRL — Courtil 50, 6671 Gouvy, Belgium
+            <a href="mailto:info@larochetriple.com">info@larochetriple.com</a>
           </p>
           <p className="tracking-[0.1em]">
             4, route du Tram · 6980 La Roche-en-Ardenne
