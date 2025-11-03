@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/la-roche-triple//_next/:path+",
+        "destination": "/la-roche-triple/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
