@@ -57,7 +57,7 @@ export default function Home() {
             alc. 8.0 % vol · 330 ml
           </p>
           <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-xs tracking-[0.3em] text-[#fdf1ed]">
-            <a
+            {/* <a
               href="#legal"
               className="transition-colors duration-200 hover:text-warm-red"
             >
@@ -69,8 +69,8 @@ export default function Home() {
               className="transition-colors duration-200 hover:text-warm-red"
             >
               Contact
-            </a>
-            <span aria-hidden="true">|</span>
+            </a> */}
+            {/* <span aria-hidden="true">|</span> */}
             <span>© 2025 La Roche Triple</span>
           </div>
         </div>
