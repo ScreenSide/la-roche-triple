@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const assetPrefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+// const assetPrefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export default function Home() {
   return (
@@ -8,7 +8,8 @@ export default function Home() {
       <section className="relative flex flex-1 items-center justify-center px-6 py-16 sm:px-10 md:py-24">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
           <Image
-            src={`${assetPrefix}/la-roche-sketch.svg`}
+            // src={`${assetPrefix}/la-roche-sketch.svg`}
+            src={`/la-roche-sketch.svg`}
             alt=""
             fill
             priority
@@ -20,7 +21,8 @@ export default function Home() {
         </div>
         <div className="relative z-10 flex w-full max-w-[34rem] flex-col items-center gap-8 text-center">
           <Image
-            src={`${assetPrefix}/logo.png`}
+            // src={`${assetPrefix}/logo.png`}
+            src={`/logo.png`}
             alt="La Roche triple logo"
             width={112}
             height={112}
