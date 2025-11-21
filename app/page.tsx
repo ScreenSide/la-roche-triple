@@ -9,13 +9,14 @@ export default function Home() {
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
           <Image
             // src={`${assetPrefix}/la-roche-sketch.svg`}
-            src={`/la-roche-sketch.svg`}
-            alt=""
-            fill
+            src={`/chateau.png`}
+            alt="Chateau"
+            width={1010}
+            height={693}
             priority
             sizes="100vw"
-            className="object-cover"
-            style={{ opacity: 0.14 }}
+            className="w-full object-contain"
+            style={{ opacity: 0.3 }}
             aria-hidden="true"
           />
         </div>
