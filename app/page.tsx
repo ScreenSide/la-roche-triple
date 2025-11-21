@@ -54,6 +54,14 @@ export default function Home() {
           <p className="tracking-[0.1em]">
             4, route du Tram · 6980 La Roche-en-Ardenne
           </p>
+          <Image
+            src="/carte.svg"
+            alt="Localisation plan for La Roche Triple"
+            width={180}
+            height={155}
+            className="mx-auto w-full max-w-[10rem] object-contain"
+            priority
+          />
           <p className="tracking-[0.2em] uppercase">
             alc. 8.0 % vol · 330 ml
           </p>
