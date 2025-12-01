@@ -30,6 +30,9 @@ export default function Home() {
             priority
             className="w-full max-w-[14rem] sm:max-w-[18rem] md:max-w-[22rem] lg:max-w-[26rem] object-contain drop-shadow-sm"
           />
+          <p className="rounded-full border border-warm-red/25 bg-white/80 px-5 py-2 text-sm text-brown shadow-sm backdrop-blur sm:text-base">
+            Shop & hosting available March 2026
+          </p>
           <div className="flex flex-col items-center gap-4">
             <span className="text-[0.7rem] uppercase tracking-[0.5em] text-deep-blue sm:text-xs">
               BRASSERIE ARTISANALE
